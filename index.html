@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-container">
+            <div class="game-container">
+                <canvas id="gameCanvas" width="600" height="400"></canvas>
+                <div id="gameOverContainer" class="game-over-container">
+                    <span id="gameOverMessage">Fim de Jogo!</span>
+                    <form id="nameForm">
+                        <label for="playerName">Digite seu nome:</label>
+                        <input type="text" id="playerName" name="playerName" required>
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <button id="restartButton">Recomeçar</button>
+                </div>
+            </div>
+            <div class="score-container">
+                <span id="score">Comprimento: 0</span>
+                <span id="best">Recorde: 0</span>
+                <label for="soundCheckbox">Som</label>
+                <input type="checkbox" id="soundCheckbox" checked>
+            </div>
+        </div>
+        <div id="rankingContainer" class="ranking-container">
+            <h2>Ranking</h2>
+            <ul id="rankingList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

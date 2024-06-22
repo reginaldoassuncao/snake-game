@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1b2838;
+    margin: 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-container {
+    background-color: #000;
+    border: 2px solid #2a475e;
+    position: relative;
+}
+
+canvas {
+    background-color: #000;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    margin: 20px 0;
+}
+
+.score-container span,
+.score-container label {
+    font-size: 20px;
+}
+
+#gameOverContainer {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+
+#gameOverMessage {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#nameForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#nameForm label,
+#nameForm input {
+    margin-bottom: 10px;
+}
+
+#restartButton {
+    background-color: #2a475e;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#restartButton:hover {
+    background-color: #1b2838;
+}
+
+.ranking-container {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.ranking-container h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.ranking-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ranking-container li {
+    font-size: 20px;
+    padding: 5px 0;
+    text-align: center;
+    border-bottom: 1px solid #2a475e;
+}
