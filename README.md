@@ -27,7 +27,7 @@ Para instalar e executar este projeto localmente, siga estas etapas:
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/reginaldoassuncao/snake-game
+    git clone https://github.com/reginaldoassuncao/snake-game.git
     ```
 
 2. Navegue até o diretório do projeto:
