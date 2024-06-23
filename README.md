@@ -27,7 +27,7 @@ Para instalar e executar este projeto localmente, siga estas etapas:
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/snake-game.git
+    git clone https://github.com/reginaldoassuncao/snake-game
     ```
 
 2. Navegue até o diretório do projeto:
@@ -57,7 +57,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Deploy
 
-A aplicação está disponível para teste em [https://seu-usuario.github.io/snake-game](https://seu-usuario.github.io/snake-game)
+A aplicação está disponível para teste em [https://github.com/reginaldoassuncao/snake-game](https://github.com/reginaldoassuncao/snake-game)
 
 ## Captura de Tela
 
