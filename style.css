@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -7,6 +8,13 @@ body {
     margin: 0;
     color: #ffffff;
     font-family: Arial, sans-serif;
+}
+
+.game-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
 }
 
 .main-container {
@@ -107,4 +115,10 @@ canvas {
     padding: 5px 0;
     text-align: center;
     border-bottom: 1px solid #2a475e;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #cccccc;
 }
